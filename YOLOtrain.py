@@ -6,9 +6,9 @@ from ultralytics import YOLO
 
 # #2.2 
 # ##Step 2: YOLOv8 Training
-# ### Training Model 
-# model = YOLO('yolov8n.pt')  # build a new model from YAML
-# results = model.train(data='C:/Users/Owner/Documents/Python/AER850P3/Project 3 Data/data/data.yaml', epochs=100, imgsz=900, batch = 5)
+### Training Model 
+model = YOLO('yolov8n.pt')  # build a new model from YAML
+results = model.train(data='C:/Users/Owner/Documents/Python/AER850P3/Project 3 Data/data/data.yaml', epochs=100, imgsz=900, batch = 5)
 
 
 #2.3 
